@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    background: linear-gradient(-90deg,black,#111,rgb(27,27,27),#222,rgb(27, 27, 27),#111,black);
+}
+#centre{
+    position: absolute;
+    height: 1100px;
+    width: 200px;
+    top: 0%;
+    left: 50%;
+    background-color:transparent;
+    transform: translate(-50%,-50%);
+}
+img{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    top: 10%;
+    left: 10%;
+    color: #fff;
+}
+#one{
+    top: 60%;
+    left: 40%;
+    position: absolute;
+    color:grey;
+    font-size: 12px;
+    font-family: gilroy;
+    text-align: center;
+}
+#two{
+    top: 88.5%;
+    left: 20%;
+    margin: 4px;
+    position: absolute;
+    padding: 8px 25px;
+    font-size: 10px;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 0, 0.505);
+    color: rgba(255, 255, 0, 0.505);
+    
+}
+.ri-facebook-fill{
+    position: absolute;
+    color:grey;
+    height: 10px;
+    width: 10px;
+    top: 98%;
+    left: 30%;
+}
+.ri-instagram-line{
+    position: absolute;
+    color:grey;
+    height: 10px;
+    width: 10px;
+    top: 98%;
+    left: 41%;
+}
+.ri-twitter-fill{
+    position: absolute;
+    color:grey;
+    height: 10px;
+    width: 10px;
+    top: 98%;
+    left: 52%;
+}
+.ri-github-fill{
+    position: absolute;
+    color:grey;
+    height: 10px;
+    width: 10px;
+    top: 98%;
+    left: 63%;
+}
+.ri-linkedin-fill{
+    position: absolute;
+    color:grey;
+    height: 10px;
+    width: 10px;
+    top: 98%;
+    left: 74%;
+}

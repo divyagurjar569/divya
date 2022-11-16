@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body:before{
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1602797924511-33dd60075ea2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDU2fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 500px;
+    padding: 80px 40px;
+    background: rgba(0,0,0,0.6);
+}
+#avtar{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: calc(-80px/2);
+    left: calc(50% -40px);  
+}
+#main h1{
+    color: #fff;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#main p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+#main input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#one{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    height: 35px;
+    font-size: 15px;
+}
+#two{
+    background-color: transparent; 
+    border: none;
+    border-bottom: 1px solid #fff;
+    height: 35px;
+    font-size: 15px;
+}
+#three{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    height: 35px;
+    font-size: 15px;
+}
+#four{
+    height: 30px;
+    color: #fff;
+    font-size: 15px;
+    background: black;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+}
+img{
+    top: 60%;
+    left: 40%;
+}

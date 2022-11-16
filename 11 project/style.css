@@ -1,0 +1,186 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+   /* height: 2000px; */
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+#nav{
+    z-index: 999;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 39px;
+    width: 100%;
+    height: 43px;
+    background-color: #333;
+}
+#nav i{
+    color: #fff;
+}
+#nav a{
+    font-size: 14px;
+    color: #fff;
+    opacity: .7;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff
+}
+#home img{
+    top: 55%;
+    left: 41%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    height: 96%;
+    width: 35%;
+    background-position: center;
+    background-size:cover ;
+}
+#ipad{
+    /*display: flex;
+    justify-content: center;*/
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    width: 20%;
+    height: 40%;
+    background-color:#fff;
+}
+#one{
+    margin-left: 60px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: gilroy;
+}
+#two{
+    margin-top: 5px;
+    margin-left: -60px;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+#link {
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    font-size: 23px;
+}
+ #link a{
+    color: rgb(52, 52, 235);
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+}
+#link a:hover{
+    border-bottom: 2px solid rgb(52, 52, 235);
+}
+#second{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+#second #ekk{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#iphone{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100px;
+    width: 300px;
+    background-color: #fff;
+}
+#idli{
+    white-space: nowrap;
+    font-size: 70px;
+    font-family: gilroy;
+    font-weight: 600;
+}
+#momos{
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: gilroy;
+    font-weight: 500;
+}
+#linkk{
+    position: absolute;
+    display: flex;
+    gap:30px ;
+    margin-top: 20px;
+    font-size: 23px;
+    margin-left: 30px;
+}
+#linkk a{
+    color: rgb(52, 52, 235);
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+}
+#linkk a:hover{
+    border-bottom: 2px solid rgb(52, 52, 235);
+}
+#third{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color:#020129;
+}
+#third video{
+    position: absolute;
+    height: 1000px;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#text{
+    padding: 30px 20px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    background-color:transparent;
+    height: 200px;
+    width: 400px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-family: gilroy;
+}
+#text p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#three{
+    font-size: 25px;
+}
+#text a{
+    font-size: 17px;
+    text-decoration: none;
+    color: royalblue;
+    border-bottom: 2px solid #020129;
+}
+#text a:hover{
+    border-bottom: 2px solid royalblue;
+}

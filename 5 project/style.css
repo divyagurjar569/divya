@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80);
+    background-size: cover;
+    background-position: center center;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(99, 96, 96, 0.140);
+}
+#text{
+    top: 15%;
+    left: 5%;
+    margin: 1px;
+    padding: 30px 20px;
+    height: 200px;
+    width: 300px;
+    background-color: transparent;
+    font-family: gilroy;
+    position: absolute;
+    color: black;
+}
+#text h1{
+    font-size: 30px;
+    
+}
+#text p{
+    padding-bottom: 10px;
+}
+#text p{
+    padding-top: 10px;
+}
+#text button{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+    padding: 5px;
+    padding-left: 0%;
+    font-weight: 600;
+}
+#text button:hover{
+    border-bottom: #fff;
+}
+#top{
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    background-color:black;
+    left: 90%;
+    top: 0%;
+}
+#momos{
+    position: absolute;
+    font-size: 13px;
+    color: #fff;
+}
+#idli{
+    position: absolute;
+    font-size: 15px;
+    top: 75%;
+    left: 11%;
+    color: royalblue;
+}
+#idli:hover{
+    color:grey;
+    font-size: 17px;
+}
+#bottom{
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    left: 90%;
+    top: 100px;
+    background-image: url(https://www.authenticindiatours.com/app/uploads/2022/05/10-Customs-and-Traditions-in-Indian-Culture-Kathakali-Dancers-940x585-c-default.jpeg);
+    background-size: cover;
+    background-position: center; 
+}
